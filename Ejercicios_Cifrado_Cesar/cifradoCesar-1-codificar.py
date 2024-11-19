@@ -12,7 +12,8 @@ desplazam = int(input("Escribe un número para el desplazamiento: "))
     #ejemplo: 
     #texto_plano = "hola"
     #desplazamiento = 5
-    #texto_cifrado = "mtqf"
+    #texto_cifrado = "mtqf
+    
     #print output: "El texto codificado es mtqf"
 # Ayuda: indice de una lista en Python: https://www.w3schools.com/python/ref_list_index.asp  
 
