@@ -11,6 +11,14 @@ def codifica(texto_plano, desplazamiento):
     texto_cifrado += nueva_letra
   print(f"El texto codificado es {texto_cifrado}")
 
+def decodifica(texto_codificado, desplazamiento):
+  texto_plano = ""
+  for letra in texto_codificado:
+    posicion = alfabeto.index(letra)
+    nueva_posicion = posicion - desplazamiento
+    texto_plano += alfabeto[nueva_posicion]
+  print(f"El texto decodificado es {texto_plano}")
+
 #TODO-1: Crea una función diferente llamada 'decodifica' que coja el 'texto' y 'desplazam' como entradas.
 
   #TODO-2: Dentro de la función 'decodifica', desplaza cada letra del 'texto' *hacia atrás* en el alfabeto la cantidad desplazam e imprime el texto decodificado.  
