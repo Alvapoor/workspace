@@ -2,9 +2,9 @@
 
 
 def histograma(repeticiones):
-    
     for numero in repeticiones:
-        print('x' * int(numero))
+        print('x'*int(numero))
 
-repeticiones = input('Ingrese los numeros separados por comas : ').split()
-
+repeticiones = input('Ingrese los numeros separados por comas : ').split(',')
+print(repeticiones)
+histograma(repeticiones)
